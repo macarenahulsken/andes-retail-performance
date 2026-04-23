@@ -1,2 +1,62 @@
-# andes-retail-performance
-Retail Data Analysis &amp; Visualization project using Tableau. Analyzing $5M+ in transactions to identify revenue decline drivers and seasonal patterns.
+# Commercial Performance Dashboard 2024-2025 | Andes Retail Group
+
+**Link to Interactive Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/macarena.hulsken/viz/Proyecto9-MacarenaHulsken-Andesretail/Desempeocomercial)
+
+## 📌 Project Overview
+As a Data Analyst for Andes Retail Group (a retail company operating in Peru, Chile, and Colombia), I was tasked with transforming dispersed transactional data into a clear, actionable visual narrative. 
+
+The objective of this project is to understand the commercial performance across 2024–2025, analyzing revenue, profitability, customer behavior, and regional differences to detect strategic business opportunities.
+
+### 🛠️ Tools & Technologies
+* **Data Visualization:** Tableau
+* **Data Cleaning & Preparation:** Excel
+* **Analytical Framework:** SCQA Model (Situation, Complication, Question, Answer)
+
+---
+
+## 📊 Executive Summary (SCQA Framework)
+
+### 1. General Overview
+* **Situation:** 2024 closed with a total revenue of $2.86M and a profit margin of 35.13%, with Peru leading revenue generation ($1.14M).
+* **Complication:** In 2025, the landscape contracted: revenue dropped to $2.67M (35.07% margin), representing a Year-over-Year (YoY) decline of -6.80%.
+* **Question:** Which segments or regions drove this revenue decline?
+* **Answer:** The decline is primarily explained by the Premium segment, which generated $0.20M less in 2025, surprisingly matching the levels of the Standard segment. Regionally, although Peru remains the leader, it suffered a significant contraction (from $1.14M to $1.02M).
+
+### 2. Detailed Diagnostic
+* **Situation:** In 2025, the Sports and Home categories were the pillars of the business, jointly contributing approximately $1.40M. Seasonally, strong sales volume was driven during the summer months.
+* **Complication:** There are three critical focus areas: 
+  1. The Electronics category suffered a YoY decline (from $0.75M to $0.66M).
+  2. Sales drop drastically during cold months.
+  3. The Economy segment has a marginal business share.
+* **Question:** What commercial actions can we implement to mitigate these seasonal drops and reactivate lagging segments?
+* **Answer (Recommendations):**
+  * **Electronics:** Deploy retargeting campaigns and targeted promotions to stimulate demand.
+  * **Seasonality:** Create a winter promotional calendar or boost the "Clothing" category with a higher Average Order Value (AOV) to offset the low volume of the cold season.
+  * **Economy Segment:** Conduct a pricing audit (benchmarking) of our entry-level products to understand if we are priced out of the market and why we are not capturing this customer profile.
+
+---
+
+## 📩 Stakeholder Communication (Slack Update)
+
+**Subject: Commercial Performance Update (2024 vs 2025)**
+
+Hi team 👋, 
+
+Sharing the key insights from our recent commercial performance analysis (2024 vs 2025) and recommended next steps:
+
+📉 **Context & Problem:**
+We closed 2025 with a YoY revenue decline of -6.80%. The main drivers of this contraction are:
+* **Premium Segment:** A drop of $0.20M compared to the previous year.
+* **Core Market (Peru):** Revenue deceleration (dropped from $1.14M to $1.02M).
+* **Categories:** Electronics suffered a YoY contraction of $0.09M.
+* **Seasonality:** Overall sales drop drastically during the winter months.
+
+🎯 **How do we reverse this trend?**
+To recover volume and leverage underexploited opportunities, I suggest acting on three fronts:
+1. **Mitigate Winter Drop:** Increase targeted marketing campaigns and promotions during cold months.
+2. **Economy Segment Review:** Audit the pricing of our entry-level products; they currently generate very low revenue and represent a clear market opportunity.
+3. **Premium Segment Deep-Dive:** Investigate the exact causes of the drop in this sector to develop retention strategies.
+
+You can find the complete details in the attached Tableau dashboards. I am available to dive deeper into any of these points. 
+
+Best regards!
