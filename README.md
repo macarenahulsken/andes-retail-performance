@@ -13,6 +13,34 @@ The objective of this project is to understand the commercial performance across
 * **Analytical Framework:** SCQA Model (Situation, Complication, Question, Answer)
 
 ---
+Dataset
+## 📂 Data Dictionary & Calculated Fields
+
+The dataset contains transactional sales records for Andes Retail Group from 2024 to 2025. Below is a description of each field:
+
+| Column | Data Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| **order_id** | Integer | Unique identifier for each order | 1 |
+| **customer_id** | Categorical | Unique identifier for the customer | C8382 |
+| **order_date** | Date | The date the sale was processed | 29/10/2025 |
+| **customer_segment** | Categorical | Customer type based on commercial value (Premium, Standard, Economy) | Standard |
+| **country** | Categorical | Country where the sale took place (Peru, Chile, Colombia) | Colombia |
+| **region** | Categorical | Geographical region within the country (North, Central, South) | South |
+| **product_category** | Categorical | Type of product sold (Electronics, Clothing, Sports, Home) | Home |
+| **season** | Categorical | Season of the year (Southern Hemisphere): Summer, Autumn, Winter, Spring | Spring |
+| **units_sold** | Integer | Quantity of units sold | 7 |
+| **unit_price** | Decimal | Price per individual unit | 67.00 |
+| **revenue** | Decimal | Total sales amount (Unit Price × Units Sold) | 469.00 |
+| **cost** | Decimal | Cost associated with the sale | 325.44 |
+| **Benefit** | Decimal | Calculated field representing total profit: `[Revenue] - [Cost]` | - |
+| **avg_unit_price** | Decimal | Calculated field representing average price per unit: `SUM([Revenue]) / SUM([Sold Units])` | - |
+| **average_revenue** | Decimal | Calculated field representing Average Order Value (AOV): `SUM([Revenue]) / COUNTD([Order Id])` | - |
+| **benefit_margin** | Decimal / % | Calculated field representing profit margin percentage: `(SUM([Revenue]) - SUM([Cost])) / SUM([Revenue])` | - |
+| **revenue_2024** | Decimal | Level of Detail (LOD) expression for fixed total revenue in 2024: `{ FIXED : SUM(IF YEAR([Order Date]) = 2024 THEN [Revenue] END) }` | - |
+| **revenue_2025** | Decimal | Level of Detail (LOD) expression for fixed total revenue in 2025: `{ FIXED : SUM(IF YEAR([Order Date]) = 2025 THEN [Revenue] END) }` | - |
+| **YoY_growth** | Decimal / % | Calculated field for Year-over-Year growth rate: `(ZN(SUM([revenue_2025])) - ZN(SUM([revenue_2024]))) / ZN(SUM([revenue_2024]))` | - |
+
+---
 
 ## 📊 Executive Summary (SCQA Framework)
 
