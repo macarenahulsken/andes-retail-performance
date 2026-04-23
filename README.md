@@ -1,6 +1,6 @@
 # Commercial Performance Dashboard 2024-2025 | Andes Retail Group
 
-**Link to Interactive Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/macarena.hulsken/viz/Proyecto9-MacarenaHulsken-Andesretail/Desempeocomercial)
+**Link to Interactive Dashboard:** [View on Tableau Public]([https://public.tableau.com/app/profile/macarena.hulsken/viz/Proyecto9-MacarenaHulsken-Andesretail/Desempeocomercial](https://public.tableau.com/app/profile/macarena.hulsken/viz/andes-retail-performance/Diagnosticocomercial)
 
 ## 📌 Project Overview
 As a Data Analyst for Andes Retail Group (a retail company operating in Peru, Chile, and Colombia), I was tasked with transforming dispersed transactional data into a clear, actionable visual narrative. 
