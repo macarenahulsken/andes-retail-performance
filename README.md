@@ -4,6 +4,8 @@
 
 **[LinkedIn](www.linkedin.com/in/macarena-hulsken)**
 
+Mail: macarenahulsken@gmail.com
+
 ## 📌 Project Overview
 As a Data Analyst for Andes Retail Group (a retail company operating in Peru, Chile, and Colombia), I was tasked with transforming dispersed transactional data into a clear, actionable visual narrative. 
 
